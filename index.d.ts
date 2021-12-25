@@ -3,10 +3,10 @@
 // "version": "8"
 
 type ParserObject = {
-	from: (string, number) => ParserObject;
-	to: (string, number) => ParserObject;
-	offset: (number) => ParserObject;
-	setDirection: (string) => ParserObject;
+	from: (pattern: string, offset: number) => ParserObject;
+	to: (pattern: string, offset: number) => ParserObject;
+	offset: (index: number) => ParserObject;
+	setDirection: (way: string) => ParserObject;
 	setLog: () => ParserObject;
 	build: () => string;
 	iterate: () => string[];
