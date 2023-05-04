@@ -1,4 +1,4 @@
-# Parser library のTypeScript 用type ファイル
+# Parser libraryのTypeScript用typeファイル
 ## ソースライブラリ
 [Parser](https://script.google.com/home/projects/1Mc8BthYthXx6CoIz90-JiSzSafVnT6U3t0z_W3hLTAX5ek4w0G_EIrNw)
 ```
@@ -8,7 +8,7 @@
 ```
 
 ## 使い方
-package.json のdevDependencies に下記を追加
+package.jsonのdevDependenciesに下記を追加
 ```
 "@types/parser": "github:LiuToki/gas-types#parser"
 ```
